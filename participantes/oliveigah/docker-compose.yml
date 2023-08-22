@@ -15,7 +15,7 @@ services:
       resources:
         limits:
           cpus: '0.5'
-          memory: '1GB'
+          memory: '0.5GB'
 
   api1:
     image: oliveigah/rinha-backend:final
@@ -34,7 +34,7 @@ services:
       resources:
         limits:
           cpus: '0.4'
-          memory: '0.75GB'
+          memory: '1GB'
 
 
   api2:
@@ -54,7 +54,7 @@ services:
       resources:
         limits:
           cpus: '0.4'
-          memory: '0.75GB'
+          memory: '1GB'
 
   nginx:
     image: nginx:latest
